@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class somaDe1A1000 {
     public static void main(String[] args) {
         System.out.println("Imprima a soma de 1 a 1000.");
