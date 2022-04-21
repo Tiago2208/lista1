@@ -2,8 +2,9 @@ import java.util.Scanner;
 
 public class Exercicio35 {
     public static void main(String[] args) {
-        double sm = 788.00;
         Scanner leitor = new Scanner(System.in);
+        System.out.println("Informe o salário mínimo: ");
+        double sm = leitor.nextDouble();
         System.out.println("Insira o seu salário: ");
         double salario = leitor.nextDouble();
         double resultadoFinal = salario / sm;
