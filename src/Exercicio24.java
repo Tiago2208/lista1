@@ -10,7 +10,10 @@ public class Exercicio24 {
         if (Number1 > Number2) {
             System.out.println("O primeiro valor é maior que o segundo: " + Number1);
         } else {
-            System.out.println("O segundo valor é maior que o primeiro: " + Number2);
+            if (Number2 > Number1) {
+
+                System.out.println("O segundo valor é maior que o primeiro: " + Number2);
+            }
         }
         if (Number1 == Number2) {
             System.out.println("0");
